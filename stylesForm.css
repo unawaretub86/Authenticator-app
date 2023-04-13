@@ -1,0 +1,52 @@
+body{
+    margin:0px;
+}
+
+.cont-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont-auth{
+    width: 35vw;
+    padding: 2rem;
+}
+
+.cont-auth__titulo{
+    font-size:2.5rem;
+    text-align: center;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.formulario__campo{
+    padding: .8rem .2rem;
+    margin-top: .5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.formulario__campo--nombre{
+    font-size: 1.3rem;
+    font-weight:600;
+}
+
+.formulario__boton{
+    margin-top: 2rem;
+    padding: .8rem .2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario__boton:hover{
+    transform: scale(1.01);
+}
